@@ -5,7 +5,7 @@ $(function() {
 
 	button.click(function() {
 		var todo = input.val();
-		list.append("<li>" + todo + "</li>");
+		list.append("<li><input type='checkbox'>" + todo + "</li>");
 		input.val("");
 	});
 });
